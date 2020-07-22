@@ -1,0 +1,11 @@
+excluded:
+
+disabled_rules:
+    - trailing_whitespace
+    - line_length
+    - void_return
+    - todo
+
+identifier_name:
+    excluded:
+    - id

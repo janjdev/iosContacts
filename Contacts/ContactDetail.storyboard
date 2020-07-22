@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hWD-jZ-OPK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contact-->
+        <scene sceneID="ySx-mJ-Unh">
+            <objects>
+                <viewController id="hWD-jZ-OPK" customClass="ContactDetailViewController" customModule="Contacts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pxd-Ed-iom">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O1I-AL-MOq" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="142" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last NAme" textAlignment="natural" minimumFontSize="17" id="crF-D5-sYr" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="175" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SGb-b0-itx" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="250" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="name"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eVr-G8-XM0" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="283" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Street" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TMT-Xs-T9r" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="366" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Apartment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VCa-mQ-9QE" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="399" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OB4-DF-Z2H" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="432" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zipcode" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3k0-6i-1Cv" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="515" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contact" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nKL-fY-hRp" customClass="LabelWithPadding" customModule="Contacts" customModuleProvider="target">
+                                <rect key="frame" x="46" y="584" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-SP-Wjn">
+                                <rect key="frame" x="310" y="587" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="setEmergency:" destination="hWD-jZ-OPK" eventType="valueChanged" id="9Qe-fg-kb5"/>
+                                </connections>
+                            </switch>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="j1B-VY-p0a">
+                                <rect key="frame" x="46" y="473" width="322" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j1B-VY-p0a" id="3xD-Yb-sYK">
+                                    <rect key="frame" x="0.0" y="0.0" width="291" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="State" textAlignment="natural" minimumFontSize="17" id="fbz-Oq-rWQ" customClass="TextFieldPadding" customModule="Contacts" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="322" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="a2h-be-zPD"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact" largeTitleDisplayMode="never" id="4lz-Gf-zfM"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="aptField" destination="VCa-mQ-9QE" id="DmQ-pY-0jL"/>
+                        <outlet property="cityField" destination="OB4-DF-Z2H" id="O17-zN-MMj"/>
+                        <outlet property="emailField" destination="eVr-G8-XM0" id="F3X-bv-vvZ"/>
+                        <outlet property="firstNameField" destination="O1I-AL-MOq" id="l6s-00-AG6"/>
+                        <outlet property="lastNameField" destination="crF-D5-sYr" id="nQh-dM-EMO"/>
+                        <outlet property="phoneField" destination="SGb-b0-itx" id="5zE-oZ-Ec1"/>
+                        <outlet property="stateField" destination="fbz-Oq-rWQ" id="637-Gn-HP4"/>
+                        <outlet property="streetField" destination="TMT-Xs-T9r" id="42L-gr-EO9"/>
+                        <outlet property="uiLabel" destination="nKL-fY-hRp" id="nGE-AZ-iKZ"/>
+                        <outlet property="uiSwitch" destination="X0e-SP-Wjn" id="EbR-c8-NNG"/>
+                        <outlet property="zipcodeField" destination="3k0-6i-1Cv" id="AEL-bP-eo9"/>
+                        <outletCollection property="addressFields" destination="TMT-Xs-T9r" collectionClass="NSMutableArray" id="KHY-Y2-4Z3"/>
+                        <outletCollection property="addressFields" destination="VCa-mQ-9QE" collectionClass="NSMutableArray" id="25I-iW-kcL"/>
+                        <outletCollection property="addressFields" destination="OB4-DF-Z2H" collectionClass="NSMutableArray" id="Axi-9W-Mu9"/>
+                        <outletCollection property="nameFields" destination="O1I-AL-MOq" collectionClass="NSMutableArray" id="jRx-Mb-kJU"/>
+                        <outletCollection property="nameFields" destination="crF-D5-sYr" collectionClass="NSMutableArray" id="11a-KJ-0OP"/>
+                        <outletCollection property="phoneNumFields" destination="SGb-b0-itx" collectionClass="NSMutableArray" id="f4G-xj-aeM"/>
+                        <outletCollection property="phoneNumFields" destination="eVr-G8-XM0" collectionClass="NSMutableArray" id="xkh-IQ-4L7"/>
+                        <outletCollection property="addressFields" destination="fbz-Oq-rWQ" collectionClass="NSMutableArray" id="UPb-cZ-Edw"/>
+                        <outletCollection property="addressFields" destination="3k0-6i-1Cv" collectionClass="NSMutableArray" id="uRD-Fo-7C0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U0S-Kg-j4p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155.07246376811597" y="164.73214285714286"/>
+        </scene>
+    </scenes>
+</document>

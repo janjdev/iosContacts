@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ObjectLibrary",
+        "repositoryURL": "https://github.com/gmhz7b/ObjectLibrary",
+        "state": {
+          "branch": "master",
+          "revision": "d010599668be9cad271505f30f13a785279522d4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
